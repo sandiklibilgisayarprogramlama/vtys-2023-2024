@@ -1,0 +1,4 @@
+ad,soyad,yas
+ali,uzun,20
+ahmet,yılmaz,20
+ali,yılmaz,30
