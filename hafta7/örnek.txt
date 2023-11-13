@@ -1,0 +1,20 @@
+ders adlı bir veri tabanı oluşturalım
+Stok, Urun, UrunKategori adlı tabloları oluşturalım
+
+
+Stok
+stokid int PK, AI
+urunid int nn unique,
+adet int nn - 1'dan küçük girileme,
+duzenleme_tarihi text nn
+
+Urun 
+urunid int PK, AI
+urunadi text nn,
+kategoriid int nn,
+fiyat numeric nn - 1'dan küçük girilemez,
+
+UrunKategori
+kategoriid int PK, AI
+kategoriadi text nn,
+aciklama text nn

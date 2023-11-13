@@ -1,3 +1,0 @@
-kullaniciadi,sifre,adsoyad
-admin,123,Hasan Uzun
-mehmet,34, Veli Kısa

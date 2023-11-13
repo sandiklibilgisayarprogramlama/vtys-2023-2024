@@ -1,0 +1,9 @@
+DDL -> data definition language veri tanımlama dili
+
+Create -> oluşturmak
+alter -> değiştirmek
+drop -> silmek
+
+
+SQL -> structured query language yapılandırılmış sorgulama dili
+

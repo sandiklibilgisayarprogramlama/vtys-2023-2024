@@ -1,0 +1,5 @@
+personel isimli bir tablo oluşturunuz.
+personelid AI, PK
+ad en fazla 20
+soyad en fazla 20
+maas numeric

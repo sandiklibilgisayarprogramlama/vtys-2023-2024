@@ -1,3 +1,3 @@
-kullaniciadi,sifre,adsoyad
-admin,123,Hasan Uzun
-mehmet,34, Mehmet Kısa
+kullaniciadi;sifre;adsoyad
+admin;123;Hasan Uzun
+mehmet;34; Mehmet Kısa

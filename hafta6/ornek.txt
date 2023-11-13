@@ -1,0 +1,9 @@
+hafta6 adında bir veritabanı oluşturunuz.
+İçerisine Ders adında bir tablo ekleyiniz.
+dersid Autoincrement, primary key
+dersadi text not null,
+derskodu text not null,
+derslik int enfazla 1000 girilebilir en az 100 girilebilir not null,
+dersdurum int default 1 not null,
+
+create komutu DDL kodu kullanarak oluşturunuz.

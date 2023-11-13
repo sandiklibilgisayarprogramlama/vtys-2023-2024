@@ -14,7 +14,7 @@ with open("adsoyad.txt","r") as dosya:
     dosya.close()
 
 for satir in veriler:
-    alanlar=satir.split(",")
+    alanlar=satir.split(";")
     if alanlar[0]==kullanici_adi and alanlar[1]==sifre:
         print("Hoşgeldin",alanlar[2])
         break
