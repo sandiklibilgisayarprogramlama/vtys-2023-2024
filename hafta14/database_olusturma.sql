@@ -1,3 +1,7 @@
+--drop table Kitap;
+--drop table Ogrenci;
+--drop table Kutuphane;
+
 create table Kutuphane(
 id INTEGER,
 adi TEXT,
@@ -23,9 +27,9 @@ ogrenci_id INTEGER,
 alim_tarihi TEXT,
 primary key (id AUTOINCREMENT),
 FOREIGN Key (kutuphane_id) REFERENCES Kutuphane(id) 
-on update set null on delete set null,
+on update CASCADE on delete CASCADE,
 FOREIGN key (ogrenci_id) REFERENCES Ogrenci(id)
-on update set null on delete set null
+on update cascade on delete CASCADE
 );
 
 
